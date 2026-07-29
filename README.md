@@ -15,7 +15,7 @@
 -->
 <img src="assets/hero-banner.gif" alt="Isometric Data Science & ML illustration" width="720"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=F7A81B&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Aniket+Yadav;Data+Scientist+%C2%B7+ML+Engineer;Full-Stack+Web+Developer;Building+AI-driven+products+that+ship." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=F7A81B&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Aniket+Yadav;Data+Scientist+%C2%B7+ML+Engineer;Front-end+Developer;Building+AI-driven+products+that+ship." alt="Typing SVG" /></a>
 
 <p>
   <a href="https://www.linkedin.com/in/aniketyadav29/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
