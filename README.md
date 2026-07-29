@@ -48,7 +48,7 @@ core_beliefs:
   - "A powerful model deserves a seamless full-stack interface"
   - "Code professionally. Build innovatively. Document flawlessly."
 
-trivia:           "I build ML pipelines to predict loan risks and detect fake news... and then I code the interactive portfolios to show them off!"
+trivia:"I build ML pipelines to predict loan risks and detect fake news... and then I code the interactive portfolios to show them off!"
 ```
 
 ---
