@@ -34,7 +34,7 @@
 identity:         Aniket Yadav
 username:         "@aniket-yadav"
 base:             India 🇮🇳
-designation:      Data Scientist · ML Engineer · Full-Stack Web Developer
+designation:      Data Scientist · ML Engineer · Fron-end Developer
 education:        "B.Tech, Babu Banarasi Das University (BBDU)"
 
 presently:
