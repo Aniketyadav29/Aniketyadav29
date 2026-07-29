@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f7a81b" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#f7a81b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hexTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f7a81b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="0" y="0" width="800" height="440" rx="28" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="440" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="798" height="438" rx="27" fill="none" stroke="#1f2937" stroke-width="1.5"/>
+
+  <!-- faint isometric dot grid -->
+  <g fill="#233047" opacity="0.5">
+    <g id="dotrow">
+      <circle cx="60" cy="60" r="1.6"/><circle cx="120" cy="60" r="1.6"/><circle cx="180" cy="60" r="1.6"/>
+      <circle cx="240" cy="60" r="1.6"/><circle cx="300" cy="60" r="1.6"/><circle cx="360" cy="60" r="1.6"/>
+      <circle cx="420" cy="60" r="1.6"/><circle cx="480" cy="60" r="1.6"/><circle cx="540" cy="60" r="1.6"/>
+      <circle cx="600" cy="60" r="1.6"/><circle cx="660" cy="60" r="1.6"/><circle cx="720" cy="60" r="1.6"/>
+    </g>
+    <use href="#dotrow" y="30"/>
+  </g>
+
+  <!-- ground slab (isometric rhombus) -->
+  <g>
+    <polygon points="80,340 400,425 720,340 400,255" fill="#121a2b"/>
+    <polygon points="80,340 400,425 400,437 80,352" fill="#0b1220"/>
+    <polygon points="400,425 720,340 720,352 400,437" fill="#0d1523"/>
+    <polygon points="80,340 400,425 720,340 400,255" fill="none" stroke="#1f2a3f" stroke-width="1"/>
+  </g>
+
+  <!-- data-flow lines from AI core to each layer -->
+  <g stroke-dasharray="4 5" stroke-width="1.5" fill="none" opacity="0.55">
+    <line x1="400" y1="196" x2="280" y2="290" stroke="#34d9a0"/>
+    <line x1="400" y1="196" x2="400" y2="268" stroke="#f7a81b"/>
+    <line x1="400" y1="196" x2="520" y2="290" stroke="#4c8dff"/>
+  </g>
+  <circle cx="340" cy="243" r="3" fill="#34d9a0"/>
+  <circle cx="400" cy="232" r="3" fill="#f7a81b"/>
+  <circle cx="460" cy="243" r="3" fill="#4c8dff"/>
+
+  <!-- DATA bar (teal) -->
+  <g>
+    <polygon points="225,320 280,290 335,320 280,350" fill="#34d9a0"/>
+    <polygon points="225,320 280,350 280,400 225,370" fill="#21a57c"/>
+    <polygon points="280,350 335,320 335,370 280,400" fill="#178064"/>
+  </g>
+  <text x="280" y="418" text-anchor="middle" font-family="monospace" font-size="13" fill="#7d8aa3">DATA</text>
+
+  <!-- ML bar (amber, tallest — the centerpiece) -->
+  <g>
+    <polygon points="340,300 400,268 460,300 400,332" fill="#ffce67"/>
+    <polygon points="340,300 400,332 400,417 340,385" fill="#c6810a"/>
+    <polygon points="400,332 460,300 460,385 400,417" fill="#9c6708"/>
+  </g>
+  <text x="400" y="434" text-anchor="middle" font-family="monospace" font-size="13" fill="#c9a86b">ML</text>
+
+  <!-- WEB bar (blue) -->
+  <g>
+    <polygon points="465,320 520,290 575,320 520,350" fill="#4c8dff"/>
+    <polygon points="465,320 520,350 520,415 465,385" fill="#3467c9"/>
+    <polygon points="520,350 575,320 575,385 520,415" fill="#274e99"/>
+  </g>
+  <text x="520" y="418" text-anchor="middle" font-family="monospace" font-size="13" fill="#7d8aa3">WEB</text>
+
+  <!-- orbit ring around AI core -->
+  <ellipse cx="400" cy="150" rx="150" ry="42" fill="none" stroke="#f7a81b" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="3 6" transform="rotate(-8 400 150)"/>
+  <circle cx="540" cy="140" r="4" fill="#ffd166"/>
+  <circle cx="262" cy="163" r="4" fill="#ffd166"/>
+
+  <!-- AI core hexagon (depth layer behind + main face) -->
+  <polygon points="400,95 447,122 447,177 400,205 353,177 353,122" fill="#7a4e07"/>
+  <polygon points="400,85 447,112 447,167 400,195 353,167 353,112" fill="url(#hexTop)"/>
+  <polygon points="400,85 447,112 400,140 353,112" fill="#ffe8b3" opacity="0.55"/>
+  <circle cx="400" cy="140" r="10" fill="#1a1200" opacity="0.8"/>
+</svg>
