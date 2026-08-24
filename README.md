@@ -284,10 +284,6 @@ trivia:"I build ML pipelines to predict loan risks and detect fake news... and t
 
 ---
 
-<p align="center">
-  <a href="https://visitcount.itsvg.in"><img src="https://komarev.com/ghpvc/?username=Aniketyadav29&icon=0&color=1" alt="Aniketyadav29"/></a>
-</p>
-
 
 
 
